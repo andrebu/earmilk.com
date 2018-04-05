@@ -2,21 +2,23 @@
 Earmilk redesign project
 
 <h2 id="table-of-contents">Table of Contents</h2>
-1. [To Do](#to-do-sec)
-2. [Theme Changes](#theme-changes-sec)
-3. [SEO Work](#seo-work-sec)
-  *  [Fixing Incomplete, Missing, or Broken hAtom hEntries](#seo-hatom-sec)
-  *  [Schema.org Markup](#seo-schema-sec)
-  *  [Other SEO Improvements](#seo-other-sec)
-4. [Miscellaneous Work](#misc-work-sec)
-5. [EARMILK Links](#earmilk-links)
-6. [EARMILK License](#earmilk-license)
+
+1. [To Do](#to-do-sec)   
+2. [Theme Changes](#theme-changes-sec)   
+3. [SEO Work](#seo-work-sec)   
+    *  [Fixing Incomplete, Missing, or Broken hAtom hEntries](#seo-hatom-sec)   
+    *  [Schema.org Markup](#seo-schema-sec)   
+    *  [Other SEO Improvements](#seo-other-sec)   
+4. [Miscellaneous Work](#misc-work-sec)   
+5. [EARMILK Links](#earmilk-links)   
+6. [EARMILK License](#earmilk-license)   
 
 
 
 ----------
 
 <h2 id="to-do-sec">To Do</h2>
+
 - [x] Implement new header
 - [x] Restructure new header further to remove unnecessary actions and make more compatible with all pages
 - [x] Remove Main Stage from all pages but the Front
