@@ -1,0 +1,334 @@
+/*
+ * Theme Name:  Authentic Child
+ * Theme URI:   https://codesupply.co/themes/authentic/
+ * Description: Authentic Child Theme
+ * Author:      Code Supply Co.
+ * Author URI:  https://codesupply.co/
+ * Template:    authentic
+ * Version:     1.3.7.2
+ */
+
+/* Copy any classes from parent theme here. They will override the parent's version. */
+
+/* Album Reviews - single review page */
+.post-media {
+}
+.post-media > div, .post-media > figure {
+    margin: 0;
+    padding: 0;
+}
+.post-media .pk-lightbox-container {
+    padding: 10px 10px 0 0;
+}
+.post-media .pk-lightbox-container,.post-media .earmilk-album-review {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.media-single-content,.earmilk-album-review {
+    width: 50%;
+    display: inline-block
+}
+
+.media-single-content {
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff
+}
+
+.earmilk-album-review {
+    vertical-align: top;
+    margin: 10px 0 0
+}
+
+.album_review .media-single-content {
+    width: 720px;
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 17px
+}
+
+.media-single-content .schema-image-obj {
+    position: relative
+}
+
+.earmilk-rating-bottle,.media-single-content .schema-image-obj .earmilk-rating-bottle {
+    display: block;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    width: 72px;
+    height: 72px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    -webkit-box-shadow: 0 1px 2px #ccc;
+    -moz-box-shadow: 0 1px 2px #ccc;
+    -o-box-shadow: 0 1px 2px #ccc;
+    box-shadow: 0 1px 2px #ccc
+}
+
+.earmilk-rating-bottle i,.media-single-content .schema-image-obj .earmilk-rating-bottle i {
+    font-size: 10px;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    margin: 5px auto 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://web.archive.org/web/20201019165303im_/https://earmilk.com/wp-content/themes/mag-wp/images/earmilk-ratings/EARMILK-rating_sprite_opt.png);
+    color: #777777;
+}
+
+.earmilk-rating-1 {
+    background-position: 0 0
+}
+
+.earmilk-rating-2 {
+    background-position: 0 -60px
+}
+
+.earmilk-rating-3 {
+    background-position: 0 -120px
+}
+
+.earmilk-rating-4 {
+    background-position: 0 -180px
+}
+
+.earmilk-rating-5 {
+    background-position: 0 -240px
+}
+
+.earmilk-rating-6 {
+    background-position: 0 -300px
+}
+
+.earmilk-rating-7 {
+    background-position: 0 -360px
+}
+
+.earmilk-rating-8 {
+    background-position: 0 -420px
+}
+
+.earmilk-rating-9 {
+    background-position: 0 -480px
+}
+
+.earmilk-rating-92 {
+    background-position: 0 -540px
+}
+
+.earmilk-rating-10 {
+    background-position: 0 -540px
+}
+
+.earmilk-album-review table.table {
+    border-spacing: 0;
+    background-color: transparent;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    table-layout: fixed
+}
+
+.earmilk-album-review table.table * {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.earmilk-album-review caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left
+}
+
+.earmilk-album-review table.table thead tr th,.earmilk-album-review table.table .earmilk-review-rating-row th,.earmilk-album-review table.table .earmilk-review-rating-row td i {
+    font-size: 17px
+}
+
+.earmilk-album-review .table thead th {
+    text-align: center
+}
+
+.earmilk-album-review .table th {
+    text-align: right
+}
+
+.earmilk-album-review .table>thead>tr>th,.earmilk-album-review .table>tbody>tr>th,.earmilk-album-review .table>tfoot>tr>th,.earmilk-album-review .table>thead>tr>td,.earmilk-album-review .table>tbody>tr>td,.earmilk-album-review .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+
+.earmilk-album-review .table>caption+thead>tr:first-child>th,.earmilk-album-review .table>colgroup+thead>tr:first-child>th,.earmilk-album-review .table>thead:first-child>tr:first-child>th,.earmilk-album-review .table>caption+thead>tr:first-child>td,.earmilk-album-review .table>colgroup+thead>tr:first-child>td,.earmilk-album-review .table>thead:first-child>tr:first-child>td {
+    border-top: 0
+}
+
+.earmilk-album-review .table>thead>tr>th {
+    border-bottom: 3px solid #ddd
+}
+
+.earmilk-album-review .table>tfoot>tr>th,.earmilk-album-review .table>tfoot>tr>td {
+    border-top: 3px solid #ddd
+}
+
+.earmilk-album-review .table>tbody+tbody {
+    border-top: 2px solid #ddd
+}
+
+.earmilk-album-review .table td img {
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,.1);
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+    border: 1px solid #eee;
+    margin: 0 0 0 3px;
+	width: auto;
+}
+
+.earmilk-album-review .table .table {
+    background-color: #fff
+}
+
+.table-condensed>thead>tr>th,.table-condensed>tbody>tr>th,.table-condensed>tfoot>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>td {
+    padding: 5px
+}
+
+.table-hover>thead>tr:hover,.table-hover>tbody>tr:hover,.table-hover>tfoot>tr:hover {
+    background-color: #f5f5f5
+}
+
+[data-scheme="dark"] .table-hover>thead>tr:hover,[data-scheme="dark"] .table-hover>tbody>tr:hover,[data-scheme="dark"] .table-hover>tfoot>tr:hover {
+    background-color: #1b1a1a;
+}
+
+
+.earmilk-album-review table.table .earmilk-review-album span,.earmilk-album-review table.table .earmilk-review-author .author-photo span {
+    display: inline-block;
+    width: 70%
+}
+
+.album-review-number {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 17px;
+    height: 21px;
+    white-space: nowrap;
+    font-weight: 700;
+    background: rgba(57,181,74,.75);
+    border: 2px solid #39b54a;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 4px;
+    margin: 0 7px 0 0
+}
+
+.fa-star {
+    color: #dfe0e0;
+    vertical-align: middle;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin: 0 1px 0 0
+}
+
+.earmilk-review-rating-row:hover .fa-star {
+    margin-left: 2px
+}
+
+.fa-star.filled-star {
+    color: #ffd200
+}
+
+.fa-star.quarter-star,.fa-star.half-star,.fa-star.three-quarters-star {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    overflow: hidden;
+    white-space: pre
+}
+
+.fa-star.quarter-star:before,.fa-star.half-star:before,.fa-star.three-quarters-star:before {
+    display: block;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    pointer-events: none;
+    color: #ffd200
+}
+
+.fa-star.quarter-star:after,.fa-star.half-star:after,.fa-star.three-quarters-star:after {
+    display: block;
+    direction: rtl;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 4px;
+    width: 70%;
+    content: "\f005";
+    overflow: hidden;
+    pointer-events: none;
+    color: #dfe0e0
+}
+
+.fa-star.quarter-star:before {
+    width: 30%
+}
+
+.fa-star.quarter-star:after {
+    left: 4px;
+    width: 70%
+}
+
+.fa-star.half-star:before {
+    width: 50%
+}
+
+.fa-star.half-star:after {
+    left: 50%;
+    width: 50%
+}
+
+.fa-star.three-quarters-star:before {
+    width: 75%
+}
+
+.fa-star.three-quarters-star:after {
+    left: 10px;
+    width: 30%
+}
+
+
+.post-thumbnail {
+    overflow: visible;
+}
+
+@media only screen and (max-width: 479px){
+	.post-media .pk-lightbox-container,
+	.post-media .earmilk-album-review {
+		width: 100%;
+		display: block;
+	}
+}
+
+
+/* Uncomment the below styles to hide the album review table and rating bottles */
+/*
+.earmilk-rating-bottle, .earmilk-album-review {
+	display: none !important;
+}
+.post-media .pk-lightbox-container {
+	width: 100%;
+	display: block;
+}
+*/
